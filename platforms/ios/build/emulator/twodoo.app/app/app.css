@@ -1,0 +1,8 @@
+﻿button, label, stack-layout {
+    horizontal-align: center;  
+}
+
+.header {
+    background-color: #E91E63;
+    height: 64;    
+}

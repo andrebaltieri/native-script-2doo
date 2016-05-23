@@ -1,0 +1,56 @@
+﻿.page {
+    horizontal-align: stretch;
+}
+
+.header {
+    background-color: #E91E63;    
+    color: #FFFFFF;
+    padding-top: 30;
+    font-size: 18;
+    text-align: center;
+}
+
+.sub-header {
+    background-color: #b5003c;
+    text-align: center;
+    font-size: 10;
+    color: #ffffff;
+}
+
+.row {
+    height: 50;
+    padding: 10;
+    animation-name: new-row;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.row-text {
+    padding-left: 15;
+}
+
+.done {
+    color: #999999;
+}
+
+.add-button {
+    background-color: #E91E63;    
+    height: 40;
+}
+
+.text-field{
+    border-radius: 1;
+    border-width: 1;
+    border-color: #E91E63;
+    margin: 3;
+    padding: 3;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+@keyframes new-row {
+    from { background-color: #8eceff; }
+    to { background-color: #FFFFFF; }
+}

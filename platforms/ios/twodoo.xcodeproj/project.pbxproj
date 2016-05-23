@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		C37007C628984A93AF127BAB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E3FC2F699646C4A4324509 /* Default-568h@2x.png */; };
+		E759D1E5C0894969B9F9FE38 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B71473C60014DA498635089 /* Default-667h@2x.png */; };
+		832DEC5108A3463C85C7186E /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F020F436ED5486BAE742F7A /* Default-736h@3x.png */; };
+		40770A93E35B42CE99BFC5E4 /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEA997CDC854AF1B0F74C6E /* Default-Landscape-568h@2x.png */; };
+		753A3BAF4FE143C1B6AC92E7 /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24C4165F032447C8DB7C372 /* Default-Landscape-667h@2x.png */; };
+		66BE79754EB440FEA48E79DC /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A78EE41E0FE342A0999B1A8B /* Default-Landscape.png */; };
+		7DED1BC502E349F89FA48473 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B17AFB70C69F461AA30D2386 /* Default-Landscape@2x.png */; };
+		FC3DF821685E4FB9802EBD99 /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8970A2DB290F42DE8F5797AB /* Default-Landscape@3x.png */; };
+		C4A11273C88D4CA48A1E09D4 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 85505120C79C49B0B778D3D5 /* Default-Portrait.png */; };
+		6EA44BBDF6EE4DDEB2E3B1B5 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FF92C6B2F4401C92775382 /* Default-Portrait@2x.png */; };
+		6D076FCCECFE4666AA16A4F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E660142957400AB3C03788 /* Default.png */; };
+		D773934970A8424D9E6AC2E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B18E4995B605497AAF226A55 /* Default@2x.png */; };
+		40A7B3BFC588423B89047B9E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A88BCBB73D124CE38705C161 /* Icon-Small-50.png */; };
+		978C6E92D99D4E2D931AB2A5 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3772F2FB84A2498CA0A2BB69 /* Icon-Small-50@2x.png */; };
+		7F3A0D58E9B5429C99A47D9D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 34062E5C3F2A416492CC5078 /* Icon-Small.png */; };
+		114F38909C8A44858EF65633 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C8D4977599401A8F927BA4 /* Icon-Small@2x.png */; };
+		6094BD3CA16A4558A04769D6 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F6A4915A94CF9939C1132 /* build.xcconfig */; };
+		38D30305E9EA47BCAD7CB3FB /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 411FF9CD1B224C4FBB9CECFB /* icon-40.png */; };
+		131A3BE306DF40E5BC75F7C0 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D62098CA0D5C47E580165FBE /* icon-40@2x.png */; };
+		C0047D1E545E465E83F791B3 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 36508BA960454DA9B2E3DD10 /* icon-60.png */; };
+		769A53AE74014F3E8D060F9D /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 616F7E53769F44969F95172D /* icon-60@2x.png */; };
+		D6BE1977240D4094B1E9E0BE /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ED01E4757EE04D9DABE97261 /* icon-72.png */; };
+		CE3D675AC8D642EA8D553949 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5549B08E71854D8CAAF26934 /* icon-72@2x.png */; };
+		0CBC425957CB46CFADA54119 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B72B9EB2934AA59FC9CDF9 /* icon-76.png */; };
+		AFF398FA02934D7181D99080 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB37BF107B0B4F2DAB055F7F /* icon-76@2x.png */; };
+		8E2CEFC2D7264CE58AF6FA05 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5E13AC9E7472B921DDB57 /* icon.png */; };
+		1E77F3FCD22446968C3FC8F9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C0B3116CEF4851A33B4DD4 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		858B832E18CA111C00AB12DE /* twodoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twodoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* twodoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twodoo-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* twodoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twodoo-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* twodoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twodoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		F9B8C6A31ACEDEEB00547416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96E3FC2F699646C4A4324509 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "twodoo/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B71473C60014DA498635089 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "twodoo/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		3F020F436ED5486BAE742F7A /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "twodoo/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		FEEA997CDC854AF1B0F74C6E /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "twodoo/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		E24C4165F032447C8DB7C372 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "twodoo/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		A78EE41E0FE342A0999B1A8B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "twodoo/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		B17AFB70C69F461AA30D2386 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "twodoo/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		8970A2DB290F42DE8F5797AB /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "twodoo/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		85505120C79C49B0B778D3D5 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "twodoo/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		59FF92C6B2F4401C92775382 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "twodoo/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		99E660142957400AB3C03788 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "twodoo/Resources/Default.png"; sourceTree = "<group>"; };
+		B18E4995B605497AAF226A55 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "twodoo/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		A88BCBB73D124CE38705C161 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "twodoo/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		3772F2FB84A2498CA0A2BB69 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "twodoo/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		34062E5C3F2A416492CC5078 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "twodoo/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		22C8D4977599401A8F927BA4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "twodoo/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		2B7F6A4915A94CF9939C1132 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "twodoo/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		411FF9CD1B224C4FBB9CECFB /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "twodoo/Resources/icon-40.png"; sourceTree = "<group>"; };
+		D62098CA0D5C47E580165FBE /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "twodoo/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		36508BA960454DA9B2E3DD10 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "twodoo/Resources/icon-60.png"; sourceTree = "<group>"; };
+		616F7E53769F44969F95172D /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "twodoo/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		ED01E4757EE04D9DABE97261 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "twodoo/Resources/icon-72.png"; sourceTree = "<group>"; };
+		5549B08E71854D8CAAF26934 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "twodoo/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		11B72B9EB2934AA59FC9CDF9 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "twodoo/Resources/icon-76.png"; sourceTree = "<group>"; };
+		FB37BF107B0B4F2DAB055F7F /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "twodoo/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		5AF5E13AC9E7472B921DDB57 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "twodoo/Resources/icon.png"; sourceTree = "<group>"; };
+		58C0B3116CEF4851A33B4DD4 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "twodoo/Resources/icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* twodoo */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* twodoo.app */,
+				858B843318CA22B800AB12DE /* twodoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* twodoo */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = twodoo;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* twodoo-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* twodoo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96E3FC2F699646C4A4324509 /* Default-568h@2x.png */,
+				4B71473C60014DA498635089 /* Default-667h@2x.png */,
+				3F020F436ED5486BAE742F7A /* Default-736h@3x.png */,
+				FEEA997CDC854AF1B0F74C6E /* Default-Landscape-568h@2x.png */,
+				E24C4165F032447C8DB7C372 /* Default-Landscape-667h@2x.png */,
+				A78EE41E0FE342A0999B1A8B /* Default-Landscape.png */,
+				B17AFB70C69F461AA30D2386 /* Default-Landscape@2x.png */,
+				8970A2DB290F42DE8F5797AB /* Default-Landscape@3x.png */,
+				85505120C79C49B0B778D3D5 /* Default-Portrait.png */,
+				59FF92C6B2F4401C92775382 /* Default-Portrait@2x.png */,
+				99E660142957400AB3C03788 /* Default.png */,
+				B18E4995B605497AAF226A55 /* Default@2x.png */,
+				A88BCBB73D124CE38705C161 /* Icon-Small-50.png */,
+				3772F2FB84A2498CA0A2BB69 /* Icon-Small-50@2x.png */,
+				34062E5C3F2A416492CC5078 /* Icon-Small.png */,
+				22C8D4977599401A8F927BA4 /* Icon-Small@2x.png */,
+				2B7F6A4915A94CF9939C1132 /* build.xcconfig */,
+				411FF9CD1B224C4FBB9CECFB /* icon-40.png */,
+				D62098CA0D5C47E580165FBE /* icon-40@2x.png */,
+				36508BA960454DA9B2E3DD10 /* icon-60.png */,
+				616F7E53769F44969F95172D /* icon-60@2x.png */,
+				ED01E4757EE04D9DABE97261 /* icon-72.png */,
+				5549B08E71854D8CAAF26934 /* icon-72@2x.png */,
+				11B72B9EB2934AA59FC9CDF9 /* icon-76.png */,
+				FB37BF107B0B4F2DAB055F7F /* icon-76@2x.png */,
+				5AF5E13AC9E7472B921DDB57 /* icon.png */,
+				58C0B3116CEF4851A33B4DD4 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* twodoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "twodoo" */;
+			buildPhases = (
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twodoo;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* twodoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "twodoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* twodoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				C37007C628984A93AF127BAB /* Default-568h@2x.png in Resources */,
+				E759D1E5C0894969B9F9FE38 /* Default-667h@2x.png in Resources */,
+				832DEC5108A3463C85C7186E /* Default-736h@3x.png in Resources */,
+				40770A93E35B42CE99BFC5E4 /* Default-Landscape-568h@2x.png in Resources */,
+				753A3BAF4FE143C1B6AC92E7 /* Default-Landscape-667h@2x.png in Resources */,
+				66BE79754EB440FEA48E79DC /* Default-Landscape.png in Resources */,
+				7DED1BC502E349F89FA48473 /* Default-Landscape@2x.png in Resources */,
+				FC3DF821685E4FB9802EBD99 /* Default-Landscape@3x.png in Resources */,
+				C4A11273C88D4CA48A1E09D4 /* Default-Portrait.png in Resources */,
+				6EA44BBDF6EE4DDEB2E3B1B5 /* Default-Portrait@2x.png in Resources */,
+				6D076FCCECFE4666AA16A4F4 /* Default.png in Resources */,
+				D773934970A8424D9E6AC2E4 /* Default@2x.png in Resources */,
+				40A7B3BFC588423B89047B9E /* Icon-Small-50.png in Resources */,
+				978C6E92D99D4E2D931AB2A5 /* Icon-Small-50@2x.png in Resources */,
+				7F3A0D58E9B5429C99A47D9D /* Icon-Small.png in Resources */,
+				114F38909C8A44858EF65633 /* Icon-Small@2x.png in Resources */,
+				6094BD3CA16A4558A04769D6 /* build.xcconfig in Resources */,
+				38D30305E9EA47BCAD7CB3FB /* icon-40.png in Resources */,
+				131A3BE306DF40E5BC75F7C0 /* icon-40@2x.png in Resources */,
+				C0047D1E545E465E83F791B3 /* icon-60.png in Resources */,
+				769A53AE74014F3E8D060F9D /* icon-60@2x.png in Resources */,
+				D6BE1977240D4094B1E9E0BE /* icon-72.png in Resources */,
+				CE3D675AC8D642EA8D553949 /* icon-72@2x.png in Resources */,
+				0CBC425957CB46CFADA54119 /* icon-76.png in Resources */,
+				AFF398FA02934D7181D99080 /* icon-76@2x.png in Resources */,
+				8E2CEFC2D7264CE58AF6FA05 /* icon.png in Resources */,
+				1E77F3FCD22446968C3FC8F9 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B8C6A31ACEDEEB00547416 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twodoo/twodoo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/twodoo/twodoo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = twodoo;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twodoo/twodoo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/twodoo/twodoo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = twodoo;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "twodoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "twodoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}
